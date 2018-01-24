@@ -65,7 +65,6 @@ nav ul li>a {
     color: #fff;
     transition: color .4s ease-out;
 }
-
 /*================Main header and paragraph==============  */
 
 .mainheader-header {
@@ -114,7 +113,6 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
     color: #fff;
     transition: .6s color, background-color .4s ease-out;
 }
-
 /*====================================Main section=======================  */
 
 .main::before {
@@ -194,7 +192,6 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
     border-radius: 50%;
     margin-left: 2%;
 }
-
 /*========================================Services=====================================  */
 
 .services {
@@ -359,7 +356,6 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
 .offer button, .sharedownload button {
     transition: transform .4s ease-in
 }
-
 /*=======================Additional Info Seciton==============  */
 
 .addinfo {
@@ -416,7 +412,6 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
     transition: transform .3s linear;
     vertical-align: middle;
 }
-
 /* ==========================News Section====================== */
 
 .news {
@@ -458,7 +453,6 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
     transform: skewY(2deg) translateY(-15%);
     transition: transform, background-color, .6s ease-out;
 }
-
 .photo-text {
     text-transform: uppercase;
     text-align: left;
@@ -610,7 +604,6 @@ footer span {
 .col-12 {
     width: 100%;
 }
-
 @media (max-width: 992px) {
     .container {
         width: 100%;
@@ -683,21 +676,21 @@ footer span {
         text-align: center;
     }
     .photowrapper {
-    	margin: 0 auto;
-    	overflow: hidden;
-    	max-height: 360px;
-    	max-width: 250px;
-    	text-align: center;
+        margin: 0 auto;
+        overflow: hidden;
+        max-height: 360px;
+        max-width: 250px;
+        text-align: center;
     }
     .photowrapper .overlay {
-    	transform: skewY(2deg) translateY(-100%);
-    	background-color: rgba(237, 20, 91, 0.7);
+        transform: skewY(2deg) translateY(-100%);
+        background-color: rgba(237, 20, 91, 0.7);
     }
     footer {
         font-size: .5em;
     }
     footer .container {
-    	justify-content: space-around;
+        justify-content: space-around;
     }
     .col-s-1 {
         width: 8.33%;
