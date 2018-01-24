@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300i,400|Montserrat:400,800');
+/* Pink = #ed145b */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 2000px
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    max-width: 1140px;
+}
+/*================================================Header styles==============================  */
+
+header {
+    background: url("img/headerbg.jpg") top/cover;
+    color: #fff;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+}
+header .container {
+    margin-top: 0;
+}
+/*============Nav styles============  */
+
+nav {
+    height: 50px;
+    padding-top: 1%;
+}
+nav h3 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.logo-slash {
+    margin-right: 1%;
+    font-size: 1em;
+    color: #ed145b;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    text-transform: capitalize;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 0;
+    padding: 0 9px;
+    transition: color .4s ease-out;
+}
+nav ul li>a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #fff;
+    transition: color .4s ease-out;
+}
+
+/*================Main header and paragraph==============  */
+
+.mainheader-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.875em;
+    margin-top: 20%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.mainheader-header::after, .main-text h2:after, .services h2::after, .prices h2::after, .news h2::after, .info2 h2::after, .downloadnow h2::after, .sharedownload h2::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: #ed145b;
+    margin: .7em auto;
+}
+.mainheader-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0 .5em;
+}
+header p {
+    display: block;
+    width: 85%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.375em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+/*================Header button=================== */
+
+header button, .prices button, .joinus button, .info2 button, .downloadnow button {
+    display: block;
+    margin: 5% auto 10%;
+    border: none;
+    border-radius: 3em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    background-color: #ed145b;
+    padding: .8em 3.4em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .6s color, background-color .4s ease-out;
+}
+
+/*====================================Main section=======================  */
+
+.main::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2.2em;
+    background-color: #ed145b;
+    position: absolute;
+    top: -3%;
+    transform: skewY(-0.8deg);
+}
+.main {
+    position: relative;
+    background-color: #f4f4f4;
+}
+.main .row {
+    width: 100%;
+    position: relative;
+    max-width: 2000px;
+}
+.main-text {
+    margin-left: 10%;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: -4px;
+}
+.main-text h2, .services h2, .prices h2, .news h2, .info2 h2, .downloadnow h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    line-height: : 2em;
+    color: #5a5a5a;
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+}
+.main-text h2 {
+    margin: 0;
+    text-transform: none;
+    text-align: left;
+}
+.main-text h2::after {
+    margin-left: 0;
+}
+.main-text p {
+    font-size: .9em;
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+    color: #767676;
+}
+.main .row img {
+    max-width: 60%;
+    float: right;
+    position: absolute;
+    bottom: 5%;
+}
+.main a {
+    margin-top: 1.5em;
+    margin-bottom: 5.4em;
+    display: inline-block;
+    color: #ed145b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: transform .3s ease-out;
+    position: relative;
+}
+.main a>span {
+    padding: .5em;
+    border: .5px solid #ed145b;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+/*========================================Services=====================================  */
+
+.services {
+    padding-top: 5%;
+}
+.services p {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+    color: #767676;
+    margin-top: 3%;
+}
+.services .row {
+    margin: 5% 0 10%;
+}
+.services-img {
+    display: inline-block;
+    margin: 0 auto;
+    border: .5px solid #767676;
+    border-radius: 100%;
+}
+.services .row .col-3:nth-child(1) .services-img {
+    padding: 3em 2.5em;
+}
+.services .row .col-3:nth-child(2) .services-img {
+    padding: 2.7em 2.5em;
+}
+.services .row .col-3:nth-child(3) .services-img {
+    padding: 2.5em 3em;
+}
+.services .row .col-3:nth-child(4) .services-img {
+    padding: 2.5em 3em;
+}
+.services-img img {
+    margin: 0 auto;
+}
+.services .row p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ed145b;
+}
+/*========================================Quote Section================  */
+
+.quote {
+    background: url('img/headerbg.jpg');
+}
+.quote span {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: #ed145b;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+}
+.quote span:nth-of-type(1) {
+    margin-bottom: -4%;
+    padding-top: 10%;
+}
+.quote span:nth-of-type(2) {
+    padding-top: 2%;
+}
+.quote p {
+    width: 66%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+/* ===========================Prices section======================== */
+
+.prices {
+    background-color: #f4f4f4;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+.prices .col-3 {
+    padding: 0
+}
+.price-wrapper {
+    width: 90%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.prices .container>p {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+}
+/* =========Offers========== */
+
+.prices .row {
+    padding-top: 10%;
+}
+.offer {
+    width: 95%;
+    background-color: #fff;
+    margin-right: 5%;
+    padding-bottom: 2%;
+}
+.month-price {
+    background-color: #5a5a5a;
+    text-align: center;
+    color: #fff;
+    transition: background-color .6s ease-out;
+}
+.month-price {
+    font-family: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding: 5% 0 15%;
+    position: relative;
+}
+.offer-type {
+    background-color: #f4f4f4;
+    color: #5a5a5a;
+    width: 80%;
+    text-transform: uppercase;
+    border-radius: 2em;
+    font-size: 1em;
+    position: absolute;
+    bottom: -1.5em;
+    left: 10%;
+    text-align: center;
+}
+.month-price span:nth-child(2) {
+    font-size: 3em;
+}
+.month-price>p {
+    font-size: 1em;
+    margin-top: 0;
+}
+.offer ul {
+    padding: 0;
+    list-style-type: none;
+    padding: 15% 0 5%;
+    text-align: center;
+    color: #5a5a5a;
+}
+.offer ul li {
+    padding: 5% 2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+.offer button, .sharedownload button {
+    transition: transform .4s ease-in
+}
+
+/*=======================Additional Info Seciton==============  */
+
+.addinfo {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.info-icon {
+    display: inline-block;
+    height: 170px;
+    margin-right: 5%;
+    float: left
+}
+.addinfo .col-4 h3 {
+    font-size: .9em;
+    font-family: 'Lato', sans-serif;
+    color: #ed145b;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+}
+.addinfo .col-4 p {
+    line-height: 1.9em;
+    font-size: .9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    text-align: left;
+}
+/* =====================Join us section=================== */
+
+.joinus {
+    background-color: #ed145b;
+    text-align: center;
+    padding: 2em 0 2em;
+}
+.joinus .container {
+    margin: 3% auto 1%;
+}
+.joinus p {
+    margin: 0;
+    font-size: 2.2em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.joinus p span {
+    font-weight: 800;
+}
+.joinus button {
+    margin: 0 0 2% 2%;
+    background-color: #fff;
+    color: #ed145b;
+    display: inline-block;
+    transition: transform .3s linear;
+    vertical-align: middle;
+}
+
+/* ==========================News Section====================== */
+
+.news {
+    background-color: #f4f4f4;
+}
+.news .container {
+    margin-top: 0;
+    padding: 5% 0;
+}
+.news .container>p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    color: #5a5a5a;
+}
+.news .row {
+    margin-top: 5%;
+}
+.gphoto {
+    width: 95%;
+}
+.photowrapper {
+    height: 205px;
+    overflow: hidden;
+}
+.photowrapper img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.overlay img {
+    display: inline-block;
+    min-height: 20%;
+    margin: 28% 0;
+}
+.photowrapper .overlay {
+    height: 115%;
+    background-color: #ed145b;
+    transform: skewY(2deg) translateY(-15%);
+    transition: transform, background-color, .6s ease-out;
+}
+
+.photo-text {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.news p {
+    text-transform: none;
+    font-size: .95em;
+    line-height: 1.8em;
+}
+/* =====================Add info 2===================== */
+
+.info2 {
+    background: url("img/headerbg.jpg") center/cover no-repeat;
+}
+.info2 .container {
+    margin-top: 0;
+    padding: 9em 0 9em;
+}
+.info2 h2, .info2 p {
+    color: #fff;
+}
+.info2 p {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    text-align: center;
+    font-weight: 100;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+.info2 button {
+    margin-bottom: 0;
+}
+/* ======================Download now==================== */
+
+.downloadnow {
+    background-color: #f4f4f4;
+    padding-bottom: 2%;
+}
+.downloadnow img {
+    display: inline-block;
+    float: left;
+    margin: 100px 4% 4% 10%;
+    width: 50%;
+}
+.sharedownload {
+    max-width: 500px;
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 3.5%;
+    width: 30%;
+}
+.sharedownload h2, .sharedownload p {
+    text-align: left;
+}
+.sharedownload h2 {
+    text-transform: none;
+}
+.sharedownload h2::after {
+    margin-left: 0;
+}
+.sharedownload p {
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    line-height: 1.8em;
+}
+.sharedownload button {
+    margin-left: 0;
+    padding: 0.8em 1.5em;
+}
+/*======================================================Foooter======== */
+
+footer {
+    background-color: #2b2b2b;
+    padding: 3% 0;
+    color: white;
+}
+footer .container {
+    margin-top: 0;
+}
+footer p {
+    margin: 0;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    align-self: left;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+footer span {
+    font-weight: bold;
+    line-height: 0;
+}
+.dot {
+    color: #ed145a;
+    font-size: 1.5em;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+.row::before, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    nav {
+        height: 400px
+    }
+    nav h3 {
+        display: block;
+        text-align: center;
+    }
+    nav ul {
+        width: 100%;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav ul li a {
+        font-size: 24px;
+    }
+    .downloadnow img {
+        display: none;
+    }
+    .main .row img {
+        display: none;
+    }
+    .main-text {
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    .main-text h2 {
+        text-align: center;
+    }
+    .mainheader-header {
+        margin-top: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+    header p {
+        font-size: 1em;
+    }
+    .joinus button {
+        margin-top: 20px;
+    }
+    .mainheader-header::after, .main-text h2:after, .services h2::after, .prices h2::after, .news h2::after, .info2 h2::after, .downloadnow h2::after {
+        width: 300px;
+    }
+    .offer {
+        width: 100%;
+    }
+    .sharedownload {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sharedownload h2::after, .main-text h2::after {
+        margin-left: auto;
+    }
+    .sharedownload h2, .sharedownload p {
+        padding: 0 5px;
+        text-align: center;
+    }
+    .sharedownload button {
+        margin: 0 auto;
+    }
+    .photo-text {
+        text-align: center;
+    }
+    .photowrapper {
+    	margin: 0 auto;
+    	overflow: hidden;
+    	max-height: 360px;
+    	max-width: 250px;
+    	text-align: center;
+    }
+    .photowrapper .overlay {
+    	transform: skewY(2deg) translateY(-100%);
+    	background-color: rgba(237, 20, 91, 0.7);
+    }
+    footer {
+        font-size: .5em;
+    }
+    footer .container {
+    	justify-content: space-around;
+    }
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+}
+@media (min-width:580px) and (max-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) {
+    nav ul li>a:hover {
+        color: #ed145b;
+    }
+    header button:hover, .info2 button:hover {
+        color: #ed145b;
+        background-color: white;
+    }
+    .main a:hover {
+        transform: scale(1.03);
+    }
+    .offer:hover .month-price {
+        background-color: #ed145b;
+    }
+    .offer button:hover, .sharedownload button:hover {
+        transform: scale(1.05);
+    }
+    .joinus button:hover {
+        transform: scale(1.1);
+    }
+    .photowrapper:hover .overlay {
+        transform: translateY(-100%);
+        background-color: rgba(237, 20, 91, 0.8);
+    }
+}
+@media (min-width: 1600px) {
+    .downloadnow {
+        background-color: #f4f4f4;
+        padding-bottom: 5%;
+    }
+    .downloadnow img {
+        display: inline-block;
+        float: left;
+        margin: 4% 4% 4% 10%;
+        width: 40%;
+    }
+    .main .row img {
+        max-width: 60%;
+        float: right;
+        position: absolute;
+        bottom: -75px;
+    }
+    .sharedownload {
+        width: 40%;
+        font-size: 1em;
+    }
+}
