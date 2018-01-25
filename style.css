@@ -243,7 +243,7 @@ header button, .prices button, .joinus button, .info2 button, .downloadnow butto
 /*========================================Quote Section================  */
 
 .quote {
-    background: url('img/headerbg.jpg');
+    background: url('img/headerbg.jpg') top/cover;
 }
 .quote span {
     display: block;
